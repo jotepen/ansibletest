@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello World - This is an updated version by Josh T."
-   response.end('Hello World\n')
+   response.end('Hello World - This is an updated version by Josh T.\n')
 }).listen(3000)
 
 // Console will print the message
